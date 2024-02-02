@@ -1,0 +1,110 @@
+{
+
+    "Header.Item1" : "About me",
+    "Header.Item2" : "Experience",
+    "Header.Item3" : "Projects",
+    "Header.Item4" : "Blog",
+    "Header.Item5" : "Contact",
+    "Header.cvBtn" : "Resume",
+    "Header.cvName": "louinord_innocent.pdf",
+
+    "Banner.Pretitle": "Hello! My name is",
+    "Banner.Description": "Seasoned <span class='underline'>Full Stack Developer</span> with 6+ years in Finance, E-Commerce, and Customer Service. Proven track record in building scalable RESTful Web Services, Microservices, and high-quality UIs. Expertise in <span class='underline'>Java, Node.js, PHP</span>. Thrives in Agile (SCRUM) environments, excels in collaboration, and consistently delivers exceptional results as a dynamic team member.",
+    "Banner.ActionBtn": "Get in touch",
+
+    "AboutMe.Title": "About me",
+    "AboutMe.Paragraphs": [
+        "In my <span class='underline'>6 years as a developer</span>, I seek to train every day. I have worked writing <span class='underline'>unit tests</span>, <span class='underline'>performing continuous integration</span>, and covering backend developer roles with <span class='underline'>Laravel and Mysql</span>. I have led teams having empathy, exercising motivation to partners, and setting plans and goals together.",
+        "My skills also include implementing system improvements, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the project I'm working on.",
+        "Some of the technologies that I have trained and worked on include (but are not limited to):"
+    ],
+
+
+    "Experience.Title": "Experience",
+    "Experience.Jobs": [{
+            "Tab": "CAM Transfer",
+            "Title": "Senior Software developer",
+            "Date": "2019 - 2022",
+            "Description": [
+              "Collaborated with product management to gather requirements, plan feature releases, and ensure alignment with business goals, resulting in increased customer satisfaction.",
+              "Designed and implemented REST APIs using Node.js, which supported critical functionalities in Call Center Management systems and reduced memory usage by 15%.",
+              "Designed and maintained database schemas with MySQL and MongoDB, ensuring optimal performance and achieving 99.9% uptime.",
+              "Creation and maintenance of a second Monitoring Platform Done in Angular, Angular Material, Laravel, Mysql, RxJS, Sass with graphics (configurable), alarm system, and user management and configuration of general parameters.",
+              "Delivered high-quality solutions with backend technologies, working with an international team to meet business needs and ensure that the solutions were scalable, maintainable, and easy to use."
+            ]
+        },
+        {
+            "Tab": "Connexus Group",
+            "Title": "Programmer Analyst",
+            "Date": "2016 - 2019",
+            "Description": [
+              "Developed opportunity study documents and project charter.",
+              "Prepared project concept, plan, and operational concept.",
+              "Implemented frontend, backend, and database design.",
+              "Installed and maintained network systems, hardware, and software.",
+              "Established technical support and trained users."
+            ]
+        }
+    ],
+
+    "FeatureProjects.Title": "My projects",
+    "FeatureProjects.Label": "Featured Project",
+    "FeatureProjects.Projects": [{
+            "Title": "Nursebuy",
+            "Description": "Design of an E-commerce website for <span class='underline'>Nursebuy</span>",
+            "imgs": [
+                "https://louinord.me/wp-content/uploads/2023/07/Screenshot-2023-07-28-141820.png"
+            ],
+            "Technologies": ["WordPress", "MySQL", "PHP", "Adobe Illustrator", "Adobe Photoshop"]
+        },
+        {
+            "Title": "Safe Trips Haiti",
+            "Description": "Design of a tailor made Travel Tour website for <span class='underline'>Safe Trips Haiti</span>",
+            "imgs": [
+                "https://louinord.me/wp-content/uploads/2023/07/Screenshot-2023-07-28-141710.png"
+            ],
+            "Technologies": ["WordPress", "MySQL", "PHP", "Adobe Illustrator", "Adobe Photoshop"]
+        },
+        {
+            "Title": "Mache Lokal Bio",
+            "Description": "Design of an E-commerce website for <span class='underline'>Nursebuy</span>",
+            "imgs": [
+                "https://louinord.me/wp-content/uploads/2023/07/Screenshot-2023-07-28-142210.png"
+            ],
+            "demoLink": "https://projects.andresjosehr.com/hands-game",
+            "Technologies": ["WordPress", "MySQL", "PHP", "Adobe Illustrator", "Adobe Photoshop"]
+        },
+        {
+            "Title": "Home 107",
+            "Description": "Design of an E-commerce website for <span class='underline'>Nursebuy</span>",
+            "imgs": [
+                "https://louinord.me/wp-content/uploads/2023/07/Screenshot-2023-07-28-144712.png"
+            ],
+            "demoLink": "https://projects.andresjosehr.com/hands-game",
+            "Technologies": ["WordPress", "MySQL", "PHP", "Adobe Illustrator", "Adobe Photoshop"]
+        },
+        {
+            "Title": "JC Distribution",
+            "Description": "POS system that manage stock, sales, client, appointment and subscription",
+            "imgs": ["https://louinord.me/wp-content/uploads/2023/07/Screenshot-2023-07-28-143012.png"],
+            
+            "Technologies": ["Angular", "CSS GRID", "Laravel", "MySQL"]
+        }
+    ],
+
+
+
+    "OtherProjects.Title": "More projects",
+    "OtherProjects.Projects": [{
+            "Title": "Portfolio",
+            "Description": "Show More",
+            "demoLink": "https://louinord.me/portfolio/"
+        }
+    ],
+    "Contact.Pretitle": "What’s Next",
+    "Contact.Title": "Get in touch!",
+    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. Simple one-page design that features a profile letter with basic information about a person.",
+    "Contact.Btn": "Say Hello"
+
+
+}

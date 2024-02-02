@@ -1,0 +1,78 @@
+<section class="section contact" id='blog'>
+  <div class="container">
+      <div class="section-box">
+          <div class="mb-4" data-aos="fade-up" data-aos-duration="1000">
+              <h3 class="contact-pre-title big-subtitle">04. Blog</h3>
+              <h4 class="e-font contact-title big-title">
+                 Building a Serverless Portfolio
+              </h4>
+          </div>
+         
+          <img class="rounded" width="900"  style="background-color: white;" src="assets/images/drawio.png" alt="Draw io">
+          <h1>Building a Serverless Portfolio with Angular, AWS, and DynamoDB</h1>
+
+          <h2>Introduction</h2>
+          <p>In today's fast-paced world, a well-crafted portfolio is crucial for showcasing your skills and projects. This blog explores the technical architecture behind a serverless portfolio, leveraging Angular for the frontend and various AWS services for the backend.</p>
+        
+          <h2>Frontend: Angular</h2>
+          <p>The frontend of the portfolio is built using Angular, a powerful and robust framework for creating dynamic web applications. Angular provides a modular structure, making it easier to organize and maintain code while ensuring a seamless user experience.</p>
+          <img height="80" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png" alt="Angular Logo">
+        
+          <h2>Backend: AWS Lambda and API Gateway</h2>
+          <p>The backend is powered by AWS Lambda, a serverless compute service that allows you to run code without provisioning or managing servers. API Gateway is utilized to create RESTful APIs, acting as a bridge between the frontend and Lambda functions, facilitating smooth communication.</p>
+          <img height="80" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Half-Life_lambda_logo.svg/800px-Half-Life_lambda_logo.svg.png" alt="AWS Lambda Logo">  -  <img height="80" src="https://cdn.worldvectorlogo.com/logos/aws-api-gateway.svg" alt="AWS API Gateway Logo">
+        
+          <h2>Hosting: S3 Bucket, CloudFront, and Route53</h2>
+          <p>For hosting the frontend files, an Amazon S3 bucket is employed, providing a scalable and secure solution for static web hosting. CloudFront, a content delivery network (CDN), enhances performance by delivering content globally with low latency. Route53 handles domain management, ensuring a professional and personalized web address.</p>
+          <img height="80" src="https://www.logicata.com/wp-content/uploads/2020/01/Amazon-Simple-Storage-Service-S3_Bucket-with-Objects_light-bg@4x.png" alt="AWS S3 Logo">  -  <img height="80" src="https://cdn.worldvectorlogo.com/logos/aws-cloudfront.svg" alt="AWS CloudFront Logo">  -  <img height="80" src="https://i0.wp.com/foxutech.com/wp-content/uploads/2017/09/What-is-Route53-in-AWS.png?fit=650%2C325&ssl=1" alt="AWS Route53 Logo">
+        
+          <h2>Contact Form: DynamoDB</h2>
+          <p>To enable user interaction, a contact form is incorporated, allowing visitors to get in touch seamlessly. The data submitted through the form is persisted in DynamoDB, a fully managed NoSQL database service by AWS. DynamoDB ensures reliable storage and retrieval of user-submitted data.</p>
+          <img height="80" src="https://upload.wikimedia.org/wikipedia/commons/f/fd/DynamoDB.png" alt="AWS DynamoDB Logo">
+        
+          <h2>Conclusion</h2>
+          <p>By combining Angular for the frontend, AWS Lambda and API Gateway for serverless backend, S3 Bucket and CloudFront for hosting, Route53 for domain management, and DynamoDB for data persistence, this portfolio achieves a scalable, performant, and cost-effective architecture. Embracing serverless technologies empowers developers to focus on building great applications without the hassle of managing infrastructure.</p>
+        
+         
+      </div>
+  </div>
+</section>
+<section class="section contact" id='contact'>
+    <div class="container">
+        <div class="section-box">
+            <div class="mb-4" data-aos="fade-up" data-aos-duration="1000">
+                <h3 class="contact-pre-title big-subtitle">05. {{"Contact.Pretitle" | translate}}</h3>
+                <h4 class="e-font contact-title big-title">
+                    {{"Contact.Title" | translate}}
+                </h4>
+            </div>
+            <form (ngSubmit)="submitForm()" #contactForm="ngForm" class="form-group">
+                <div>
+                  <label for="name">Name:</label>
+                  <input type="text" class="form-control" id="name" name="name" [(ngModel)]="formData.name" required>
+                </div>
+              
+                <div>
+                  <label for="email">Email:</label>
+                  <input type="email" class="form-control" id="email" name="email" [(ngModel)]="formData.email" required>
+                </div>
+
+                <div>
+                  <label for="name">Phone Number:</label>
+                  <input type="text" class="form-control" id="phone" name="phone" [(ngModel)]="formData.phone">
+                </div>
+              
+                <div>
+                  <label for="message">Message:</label>
+                  <textarea id="message" class="form-control" name="message" [(ngModel)]="formData.message" required></textarea>
+                </div>
+                <br/>
+                <button type="submit" class="btn btn-success" [disabled]="contactForm.invalid">Submit</button>
+
+                <div *ngIf="message">{{ message }}</div>
+              </form>
+              
+           
+        </div>
+    </div>
+</section>
